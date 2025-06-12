@@ -1,0 +1,33 @@
+body {
+    background-color: #333;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: 50px auto;
+    text-align: center;
+}
+
+button {
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.progress-bar {
+    width: 0;
+    height: 30px;
+    margin: 10px 0;
+    background-color: gray;
+    transition: width 0.5s;
+}
+
+#progressBar1 {
+    background-color: green;
+}
+
+#progressBar2 {
+    background-color: green;
+}
